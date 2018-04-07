@@ -1,0 +1,7 @@
+@import url('fonts/fontdef.css')
+body{
+  font-family: Garamond;
+}
+h1, .tangle{
+  font-family: 'tanglewood_tales_nfregular';
+}
