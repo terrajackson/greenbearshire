@@ -11,6 +11,7 @@ deploy:
     repo: terrajackson/greenbearshire
   notifications:
     email:
-      we@batjackson.com
       on_success: always
       on_failure: always
+      recipients:
+        - we@batjackson.com
