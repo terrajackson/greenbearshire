@@ -12,5 +12,5 @@ deploy:
   notifications:
     email:
       we@batjackson.com
-      success: always
-      failure: always
+      on_success: always
+      on_failure: always
