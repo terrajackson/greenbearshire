@@ -9,3 +9,8 @@ deploy:
   acl: bucket_owner_full_control
   on:
     repo: terrajackson/greenbearshire
+  notifications:
+    email:
+      we@batjackson.com
+      success: always
+      failure: always
