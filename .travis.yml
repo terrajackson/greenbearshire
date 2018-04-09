@@ -1,0 +1,5 @@
+deploy:
+  provider: s3
+  access_key_id: "AKIAJQ4ZVGWWETJZ5YPQ"
+  secret_access_key: "potato2050"
+  bucket: "sylvanianfamilies.greenbearshire.com"
