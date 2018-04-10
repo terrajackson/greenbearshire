@@ -1,4 +1,10 @@
 language: generic
+notifications:
+  email:
+    on_success: always
+    on_failure: always
+    recipients:
+        - we@batjackson.com
 deploy:
   provider: s3
   access_key_id: AKIAJKACEEHWI3XUQ26Q
@@ -9,3 +15,4 @@ deploy:
   acl: bucket_owner_full_control
   on:
     repo: terrajackson/greenbearshire
+    all_branches: true
