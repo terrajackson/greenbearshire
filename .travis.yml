@@ -1,8 +1,6 @@
 language: generic
 notifications:
   email:
-    on_success: always
-    on_failure: always
     recipients:
         - we@batjackson.com
 deploy:
