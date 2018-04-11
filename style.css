@@ -1,7 +1,27 @@
-@import url('fonts/fontdef.css')
-body{
-  font-family: Garamond;
+@import url('fonts/fontdef.css');
+
+body {
+    background-image: url('websitebackground.jpg');
+    background-size: 25%;
+    font-family: Garamond;
+    align-content: center;
 }
-h1, .tangle{
-  font-family: 'tanglewood_tales_nfregular';
+
+h1,.tangle {
+    font-family: 'tanglewood_tales_nfregular', Garamond;
+}
+
+table {
+    width: 100%;
+    border: 3px solid indianred;
+}
+
+.main-content {
+    width: 75%;
+    height: 100%;
+    background-color: #56aff6;
+    align: center;
+    /*align-content: center;*/
+    margin-left: 12.5%;
+    /*border: 3px solid indianred;*/
 }
