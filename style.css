@@ -65,7 +65,7 @@ table, .grid {
 .bottom-row {
   float: bottom;
   display: table-row;
-  background-color: saddlebrown;
+  /*background-color: saddlebrown;*/
 }
 
 .top-row, .middle-row, .bottom-row {
