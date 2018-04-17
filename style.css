@@ -8,29 +8,74 @@ body {
 }
 
 h1, .tangle {
-  font-family: 'tanglewood_tales_nfregular', Garamond, Serif, serif;
+  font-family: 'tanglewood_tales_nfregular', Garamond, serif;
 }
 
-table {
+table, .grid {
   width: 100%;
   height: 100%;
+  display: table;
   /*border: 3px solid indianred;*/
 }
 
-.main-content {
+.main-content, .middle-column {
   /*font-size: 1.15em;*/
   width: 75%;
+  min-width: 75%;
   height: 100%;
-  background-color: #56aff6;
+  background-color: #56aff6 !important;
   text-align: center;
   align-content: center;
   vertical-align: middle;
-  margin-left: 12.5%;
+  /*margin-left: 12.5%;*/
+  display: table-cell;
   /*border: 3px solid indianred;*/
+  /*background-color: purple;*/
 }
 
-.side-column {
+.left-column, .right-column {
+  display: table-cell;
+  /*min-width: 12.5%;*/
+  height: 100%;
+  min-height: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.side-column, .left-column, .right-column {
+  display: table-column;
   width: 12.5%;
+}
+
+.left-column {
+  float: left;
+  /*background-color: green;*/
+}
+
+.right-column {
+  float: right;
+  /*background-color: red;*/
+}
+
+.top-row {
+  float: top;
+  display: table-row;
+}
+
+.bottom-row {
+  float: bottom;
+  display: table-row;
+  background-color: saddlebrown;
+}
+
+.top-row, .middle-row, .bottom-row {
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.mock {
+  color: #333;
 }
 
 a, p {
