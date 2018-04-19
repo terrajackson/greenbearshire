@@ -3,9 +3,9 @@ notifications:
   email:
     recipients:
         - we@batjackson.com
-install: gem install jekyll html-proofer
-script:
-  - "./test-html.sh"
+ install: gem install jekyll html-proofer
+ script:
+   - "./test-html.sh"
 
  deploy:
   provider: s3
