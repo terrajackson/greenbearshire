@@ -3,6 +3,7 @@ notifications:
   email:
     recipients:
         - we@batjackson.com
+install: gem install jekyll html-proofer
 deploy:
   provider: s3
   access_key_id: AKIAJKACEEHWI3XUQ26Q
