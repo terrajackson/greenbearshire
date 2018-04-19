@@ -1,6 +1,15 @@
 #! /bin/bash -eu
 
-time bundle exec htmlproofer \
+parentDir=$(cd `dirname $0`/..;pwd)
+pushd ${parentDir}
+echo "'Running in '$(pwd)'..."
+echo "Checking prereqs..."
+if [[ $(which bundle) == "" ]]; then
+echo "'bundle' executable not found!"
+exit 1
+fi
+/usr/bin/time -p bundle install
+/usr/bin/time -p bundle exec htmlproofer \
 --allow_hash_href \
 --alt_ignore /./ \
 --file-ignore /.git/ \
