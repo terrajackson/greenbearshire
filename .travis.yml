@@ -5,7 +5,7 @@ notifications:
         - we@batjackson.com
 install: bundle install
 rvm:
- - 2.3.3
+ - 2.4.2
 deploy:
   provider: s3
   access_key_id: AKIAJKACEEHWI3XUQ26Q
