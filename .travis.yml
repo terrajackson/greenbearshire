@@ -3,7 +3,9 @@ notifications:
   email:
     recipients:
         - we@batjackson.com
-deploy:
+script:
+ - "./test-html.sh"
+ deploy:
   provider: s3
   access_key_id: AKIAJKACEEHWI3XUQ26Q
   secret_access_key:
