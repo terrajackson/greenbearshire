@@ -3,7 +3,7 @@ notifications:
   email:
     recipients:
         - we@batjackson.com
-install: gem install jekyll html-proofer
+install: bundle install
 rvm:
  - 2.3.3
 deploy:
