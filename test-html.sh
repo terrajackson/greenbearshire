@@ -9,7 +9,6 @@ time bundle exec htmlproofer \
 --check-opengraph \
 --log-level :debug \
 
-#--disable-external \
 #--checks-to-ignore ImageCheck
 
 
