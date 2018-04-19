@@ -1,9 +1,10 @@
-language: rubygeneric
+language: ruby
 notifications:
   email:
     recipients:
         - we@batjackson.com
- install: gem install jekyll html-proofer
+ install: gem install html-proofer
+ script: htmlproofer
 
  deploy:
   provider: s3
