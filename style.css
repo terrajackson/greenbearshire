@@ -78,6 +78,6 @@ table, .grid {
   color: #333;
 }
 
-a, p {
+a, p, blockquote {
   font-size: 1.17em;
 }
