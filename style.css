@@ -81,3 +81,9 @@ table, .grid {
 a, p, blockquote {
   font-size: 1.17em;
 }
+
+li, .bullet {
+  list-style-position: inside;
+  font-size: 1.17em;
+  font-weight: bold;
+}
